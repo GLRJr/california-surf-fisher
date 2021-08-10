@@ -1,0 +1,12 @@
+.heroMain {
+  height: 750px;
+  /* max-height: 650px; */
+}
+.heroPlayer {
+  width: 100vw;
+  float: left;
+  top: 0;
+  padding: none;
+  z-index: -1;
+  position: relative;
+}
