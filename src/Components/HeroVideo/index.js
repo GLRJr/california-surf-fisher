@@ -1,6 +1,6 @@
-import React from "react";
-import bgVideo from "../../assets/bgVideo.mp4";
-import style from "./styles.module.css";
+import React from 'react';
+import bgVideo from '../../assets/bgVideo.mp4';
+import style from './styles.module.css';
 
 function HeroVideo() {
   return (

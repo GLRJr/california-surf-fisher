@@ -1,27 +1,73 @@
-import React from "react";
-import { navbarItems } from "./navbarItems";
-import style from "./styles.module.css";
+import React, {useState, useEffect} from 'react';
+import {navbarItems} from './navbarItems';
+import {Link} from 'react-router-dom';
+import styles from './styles.module.css';
 
 function NavBar() {
-  return (
-    <div className={style.navBar}>
-      <nav className={style.navItems}>
-        {/* <div className={style.logoContainer}>
-          <img className={style.logo} src={logoImg} alt="surf-logo" />
-        </div> */}
-        <div className={style.title}>California Surf Fishing</div>
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
-        <ul>
-          {navbarItems.map((item, index) => {
-            return (
-              <li key={index} className={item.cName} href={item.url}>
-                {item.title}
-              </li>
-            );
-          })}
-        </ul>
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <nav className={styles.navbar}>
+        <div className={styles.navbarContainer}>
+          <Link to="/" className={styles.navbarLogo} onClick={closeMobileMenu}>
+            California Surf Fisher
+            <i className={`${styles.faFish} fas fa-fish`} />
+          </Link>
+          <div className={styles.menuIcon} onClick={handleClick}>
+            <i
+              className={click ? `${styles.faTimes} fas fa-times` : `${styles.faBars} fas fa-bars`}
+            />
+          </div>
+          <ul className={click ? styles.active : styles.navMenu}>
+            <li className={styles.navItem}>
+              <Link to="/" className={styles.navLinks} onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link to="/rigs" className={styles.navLinks} onClick={closeMobileMenu}>
+                Rigs
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link to="/beaches" className={styles.navLinks} onClick={closeMobileMenu}>
+                Beaches
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link to="/fish" className={styles.navLinks} onClick={closeMobileMenu}>
+                Species Info
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/signup" className={styles.navLinksMobile} onClick={closeMobileMenu}>
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </div>
+    </>
   );
 }
 

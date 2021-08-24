@@ -16,6 +16,7 @@ export const SpeciesData = [
       "A species of houndshark, It is found along the Pacific coast of North America, from the U.S. state of Oregon to Mazatlán in Mexico. Typically measuring 3.9–4.9 ft long, identifiable by the pattern of black saddle-like markings over its back.",
     profileImage: leopardShark,
     profile: "#",
+    catchMethod: "",
   },
   {
     commonName: "Barred Surfperch",
@@ -24,6 +25,7 @@ export const SpeciesData = [
       "native to inshore waters from northern California, United States to southern Baja California, Mexico. it gives birth to live young. Barred Surfperch can be identified by bars and spots on sides which are often unbarred, as well as the absence of red tail.",
     profileImage: barredSurfPerch,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -33,6 +35,7 @@ export const SpeciesData = [
       "is marine demersal fish in the croaker family. found along sandy beaches and in shallow bays. travels in small groups along the surf zone in a few inches of water to depths of 20 meters. Other names include California kingcroaker, California whiting, and kingfish.",
     profileImage: californiaCorbina,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -42,6 +45,7 @@ export const SpeciesData = [
       "The Walleye surfperch can be distinguished from other surfperch by the distinctive black tips on the ventral fins and black borders on the tail and anal fins. This species can reach a length of 30 centimetres (12 in) length.",
     profileImage: walleyeSurfPerch,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -51,6 +55,7 @@ export const SpeciesData = [
       "live along beaches and in bays over bottoms varying from coarse sand to heavy mud and at depths varying from 4 to 50 feet or more. They prefer depressions and holes near shore.",
     profileImage: spotfinCroaker,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -60,6 +65,7 @@ export const SpeciesData = [
       "is a large-tooth flounder. This is an unusual fish in that one eye has to migrate around from one side to the other as it grows from an upright fry or baby fish into an adult fish that lies on its side. The adult has two eyes on the up-side as it lies on the bottom.  ",
     profileImage: californiaHalibut,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -69,6 +75,7 @@ export const SpeciesData = [
       "an eagle ray found in muddy or sandy sloughs. Bat rays are euryhaline, i.e. they are able to live in environments with a wide range of salinities.",
     profileImage: batRay,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -78,6 +85,7 @@ export const SpeciesData = [
       "They frequent bays, channels, harbors and other nearshore waters over sandy bottoms. These croakers are more abundant along beaches during the summer months and may move to deeper water in winter.",
     profileImage: yellowfinCroaker,
     profile: "#",
+    catchMethod: "",
   },
 
   {
@@ -87,5 +95,6 @@ export const SpeciesData = [
       "Morphological and genetic variations occur in the mitochondrial DNA in those found in the Gulf of California Because of this, with many features of both sharks and rays.",
     profileImage: shovelnoseGuitarfish,
     profile: "#",
+    catchMethod: "",
   },
 ];
