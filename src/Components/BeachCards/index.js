@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 import CardItem from './CardItem';
+import beachPic from '../../assets/beach-1.jpeg';
 
 function BeachCards() {
   return (
@@ -10,13 +11,13 @@ function BeachCards() {
         <div className={styles.cardsWrapper}>
           <ul className={styles.cardsItems}>
             <CardItem
-              src="./src/assets/beach-1.jpeg"
+              src={beachPic}
               text="Classic Redondo Beach Pier"
               label="Pier"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src={beachPic}
               text="Legendary Huntinton Beach"
               label="Surf"
               path="/services"
@@ -24,19 +25,19 @@ function BeachCards() {
           </ul>
           <ul className={styles.cardsItems}>
             <CardItem
-              src="images/img-3.jpg"
+              src={beachPic}
               text="Historic Santa Monica Pier"
               label="Pier"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
+              src={beachPic}
               text="Relaxing Will Rodgers State Beach"
               label="Jetty"
               path="/products"
             />
             <CardItem
-              src="images/img-8.jpg"
+              src={beachPic}
               text="Beautiful Manhatten Beach"
               label="Jetty"
               path="/sign-up"
