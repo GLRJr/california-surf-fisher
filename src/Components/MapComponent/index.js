@@ -11,6 +11,7 @@ function MapComponent() {
         scrolling="no"
         bgcolor="#C9D3DE"
         allow="geolocation"
+        title="Fishing spot locator"
       ></iframe>
     </div>
   );
