@@ -9,6 +9,8 @@ function HeroVideo() {
         <source src={bgVideo} type="video/mp4" />
         <source src={bgVideo} type="video/oog" />
       </video>
+      {/* <h1>ADVENTURE AWAITS</h1> */}
+      {/* <p>Sign Up Today</p> */}
     </div>
   );
 }
