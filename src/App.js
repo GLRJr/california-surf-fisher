@@ -5,6 +5,7 @@ import HomeScreen from './Screens/HomeScreen';
 import Rigs from './Screens/RigsScreen';
 import LocationsScreen from './Screens/LocationsScreen';
 import FishScreen from './Screens/FishScreen';
+import FullSpeciesProfile from './Components/FullSpeciesProfile';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/fish">
             <FishScreen />
+          </Route>
+          <Route path="/fishprofile">
+            <FullSpeciesProfile />
           </Route>
         </Switch>
       </main>
