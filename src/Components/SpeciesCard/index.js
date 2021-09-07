@@ -41,12 +41,13 @@ function SpeciesCard() {
 
                       setAnimalName(item.commonName);
                       console.log(item.commonName);
-                      history.push({
+                      history.push(`/fishprofile/${item.id}`);
+                      /*history.push({
                         pathname: '/fishprofile',
                         state: {
-                          animalName,
+                          animalName: item.commonName,
                         },
-                      });
+                      });*/
                     }}
                   >
                     View Full Profile

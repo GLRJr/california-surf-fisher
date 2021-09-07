@@ -24,9 +24,7 @@ function App() {
           <Route path="/fish">
             <FishScreen />
           </Route>
-          <Route path="/fishprofile">
-            <FullSpeciesProfile />
-          </Route>
+          <Route path="/fishprofile/:id" component={FullSpeciesProfile} />
         </Switch>
       </main>
     </Router>
