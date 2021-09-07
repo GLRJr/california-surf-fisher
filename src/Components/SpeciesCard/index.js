@@ -41,6 +41,7 @@ function SpeciesCard() {
 
                       setAnimalName(item.commonName);
                       console.log(item.commonName);
+                      console.log(animalName);
                       history.push(`/fishprofile/${item.id}`);
                       /*history.push({
                         pathname: '/fishprofile',
