@@ -10,7 +10,7 @@ import shovelnoseGuitarfish from '../../assets/shovelnose-guitarfish.jpeg';
 
 export const SpeciesData = [
   {
-    id: '1',
+    id: 'Leopard Shark',
     commonName: 'Leopard Shark',
     scienceName: 'Triakis semifasciata',
     description:
@@ -20,7 +20,7 @@ export const SpeciesData = [
     catchMethod: '',
   },
   {
-    id: '2',
+    id: 'Barred Surfperch',
     commonName: 'Barred Surfperch',
     scienceName: 'Amphistichus argenteus',
     description:
@@ -31,7 +31,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '0',
+    id: 'California Corbina',
     commonName: 'California Corbina',
     scienceName: 'Menticirrhus undulatus',
     description:
@@ -42,7 +42,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '3',
+    id: 'Walleye Surfperch',
     commonName: 'Walleye Surfperch',
     scienceName: 'Hyperprosopon argenteum',
     description:
@@ -53,7 +53,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '4',
+    id: 'Spotfin Croaker',
     commonName: 'Spotfin Croaker',
     scienceName: 'Roncador stearnsii',
     description:
@@ -64,7 +64,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '5',
+    id: 'California Halibut',
     commonName: 'California Halibut',
     scienceName: 'Paralichthys californicus',
     description:
@@ -75,7 +75,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '6',
+    id: 'Bat Ray',
     commonName: 'Bat Ray',
     scienceName: 'Myliobatis californica',
     description:
@@ -86,7 +86,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '7',
+    id: 'Yellowfin Croaker',
     commonName: 'Yellowfin Croaker',
     scienceName: 'Umbrina roncador',
     description:
@@ -97,7 +97,7 @@ export const SpeciesData = [
   },
 
   {
-    id: '8',
+    id: 'Shovelnose Guitarfish',
     commonName: 'Shovelnose Guitarfish',
     scienceName: 'Rhinobatos productus',
     description:

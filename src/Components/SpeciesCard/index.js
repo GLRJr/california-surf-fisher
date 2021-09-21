@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import style from './styles.module.css';
 import {SpeciesData} from './SpeciesData';
 import {Swiper, SwiperSlide} from 'swiper/react';
@@ -8,7 +8,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 
 function SpeciesCard() {
-  const [animalName, setAnimalName] = useState('');
+  // const [animalName, setAnimalName] = useState('');
   const history = useHistory();
 
   return (
@@ -37,11 +37,11 @@ function SpeciesCard() {
 
                   <button
                     onClick={() => {
-                      console.log('clicked');
+                      // console.log('clicked');
 
-                      setAnimalName(item.commonName);
-                      console.log(item.commonName);
-                      console.log(animalName);
+                      // setAnimalName(item.commonName);
+                      // console.log(item.commonName);
+                      // console.log(animalName);
                       history.push(`/fishprofile/${item.id}`);
                       /*history.push({
                         pathname: '/fishprofile',
