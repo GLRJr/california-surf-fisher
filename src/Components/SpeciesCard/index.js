@@ -33,22 +33,11 @@ function SpeciesCard() {
                 <div className={style.lowerContainer}>
                   <h3>{item.commonName}</h3>
                   <h4>{item.scienceName}</h4>
-                  <p>{item.description}</p>
+                  <p>{item.shortDescription}</p>
 
                   <button
                     onClick={() => {
-                      // console.log('clicked');
-
-                      // setAnimalName(item.commonName);
-                      // console.log(item.commonName);
-                      // console.log(animalName);
                       history.push(`/fishprofile/${item.id}`);
-                      /*history.push({
-                        pathname: '/fishprofile',
-                        state: {
-                          animalName: item.commonName,
-                        },
-                      });*/
                     }}
                   >
                     View Full Profile

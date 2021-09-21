@@ -19,6 +19,7 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  color: #fff;
 }
 
 .navbarLogo {
@@ -33,8 +34,9 @@
 }
 
 .faFish {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
+  /* margin-left: 0.5rem;
+  font-size: 1.8rem; */
+  display: none;
 }
 
 .navMenu {

@@ -20,6 +20,7 @@ function NavBar() {
 
   useEffect(() => {
     // showButton();
+    // removeNavBarTitle();
   }, []);
 
   // window.addEventListener('resize', showButton);

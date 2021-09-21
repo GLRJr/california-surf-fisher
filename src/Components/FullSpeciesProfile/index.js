@@ -9,10 +9,18 @@ function FullSpeciesProfile(props) {
   return (
     <div className={style.mainFullProfile}>
       <NavBar />
-      <h1>{animal.commonName}</h1>
-      <h2>{animal.scienceName}</h2>
+      {/* i want to add a swipe photo gallery */}
       <img src={animal.profileImage} alt="profile" />
-      <p>{animal.description}</p>
+      <h1>{animal.commonName}</h1>
+      <h3>({animal.scienceName})</h3>
+      <h4>Description</h4>
+      <p>{animal.longDescription}</p>
+      <h4>Tips on catching</h4>
+      <p>{animal.catchMethod}</p>
+      <h4>Regulation</h4>
+      <p>{animal.regulation}</p>
+      <h4>Sources</h4>
+      <p>{animal.source}</p>
     </div>
   );
 }
