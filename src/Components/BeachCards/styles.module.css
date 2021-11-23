@@ -30,6 +30,8 @@
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  width: 300px;
+  height: 175px;
 }
 
 .cardsItemLink {
