@@ -18,7 +18,7 @@ export const SpeciesData = [
     longDescription: 'still under research',
     profileImage: leopardShark,
     diet: 'still under research',
-    catchMethod: 'High low Rig with sand crab, squid, or other cut bait is popular',
+    catchMethod: 'High low Rig with sand crab, squid, or other cut bait is',
     regulation:
       'The recreational fishery for leopard shark (Triakis semifasciata) is open year-round to divers and shore-based anglers. This fishery inside San Diego Bay, Mission Bay, Newport Bay and Alamitos Bay is open year-round to boat-based anglers.Outside of the above-mentioned embayments, this fishery is open to boat-based anglers from March 1, 2021 through December 31, 2021. Take of leopard shark is prohibited seaward of the 100 fathom (600 feet) Rockfish Conservation Area boundary line, which is a series of connected waypoints defined in Federal regulations (50 CFR Part 660, Subpart C). Note that leopard shark may not be taken in the Cowcod Conservation Areas. The daily bag and possession limit is 3 fish with a minimum size limit of 36 inches total length. The leopard shark is part of a group of fish known as groundfish, which includes over 90 species that live on or near the bottom of the ocean (with a few exceptions). Summary Table of Ground Fish regulations: https://wildlife.ca.gov/Fishing/Ocean/Regulations/Groundfish-Summary#south , Additional ground fish info: https://wildlife.ca.gov/Fishing/Ocean/Regulations/Fishing-Map/Southern#groundfishinfo  ',
     source: 'https://wildlife.ca.gov/Fishing/Ocean/Regulations/Fishing-Map/Southern#leopard',
@@ -52,8 +52,9 @@ export const SpeciesData = [
     profileImage: californiaCorbina,
     diet: 'crustaceans, small fish, bivalves, and other small invertebrates',
     catchMethod: 'sight casting with light tackle is a popular method',
-    regulation: 'still under research',
-    source: 'still under research',
+    regulation:
+      '27.60. LIMIT.(a) General. No more than 20 finfish in combination of all species with not more than 10 of any one species, may be taken or possessed by any one person except as otherwise provided or as defined insub-section (c) below or in Section 195. See sections 27.70 through 28.62 for special bag limits, minimum size limits and poundage restrictions for certain species that apply in addition to the general bag limit. ',
+    source: 'https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=190413&inline',
   },
 
   {
