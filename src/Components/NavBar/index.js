@@ -30,7 +30,7 @@ function NavBar() {
       <nav className={styles.navbar}>
         <div className={styles.navbarContainer}>
           <Link to="/" className={styles.navbarLogo} onClick={closeMobileMenu}>
-            California Surf Fisher
+            Santa Monica Surf Casters
             <i className={`${styles.faFish} fas fa-fish`} />
           </Link>
           <div className={styles.menuIcon} onClick={handleClick}>

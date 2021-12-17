@@ -1,45 +1,40 @@
 import React from 'react';
 import styles from './styles.module.css';
+//import {useHistory} from 'react-router-dom';
 import CardItem from './CardItem';
-import beachPic from '../../assets/beach-1.jpeg';
+import venicePier from '../../assets/venicefishingpier.jpg';
+import redondoPier from '../../assets/Redondobeachpier.jpg';
+import santaMonicaPier from '../../assets/santaMonicaPier.jpg';
+import manhattanBeachPier from '../../assets/manhattanBeachPier.jpg';
+import willRodgersStateBeach from '../../assets/willRodgersStateBeach.jpg';
 
 function BeachCards() {
   return (
     <div className={styles.cards}>
-      <h1>Top Surf Fishing Locations</h1>
+      <h1>Popular Spots in the Santa Monica Bay</h1>
       <div className={styles.cardsContainer}>
         <div className={styles.cardsWrapper}>
           <ul className={styles.cardsItems}>
-            <CardItem
-              src={beachPic}
-              text="Classic Redondo Beach Pier"
-              label="Pier"
-              path="/services"
-            />
-            <CardItem
-              src={beachPic}
-              text="Legendary Huntinton Beach"
-              label="Surf"
-              path="/services"
-            />
+            <CardItem src={redondoPier} text="Redondo Beach Pier" label="Pier" path="/services" />
+            <CardItem src={venicePier} text="Venice Fishing Pier" label="Pier" path="/" />
           </ul>
           <ul className={styles.cardsItems}>
             <CardItem
-              src={beachPic}
-              text="Historic Santa Monica Pier"
+              src={santaMonicaPier}
+              text="Santa Monica Pier"
               label="Pier"
               path="/services"
             />
             <CardItem
-              src={beachPic}
-              text="Relaxing Will Rodgers State Beach"
-              label="Jetty"
+              src={willRodgersStateBeach}
+              text="Will Rodgers State Beach"
+              label="Surf"
               path="/products"
             />
             <CardItem
-              src={beachPic}
-              text="Beautiful Manhatten Beach"
-              label="Jetty"
+              src={manhattanBeachPier}
+              text="Manhattan Beach Pier"
+              label="Pier"
               path="/sign-up"
             />
           </ul>

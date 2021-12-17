@@ -6,6 +6,7 @@ import Rigs from './Screens/RigsScreen';
 import LocationsScreen from './Screens/LocationsScreen';
 import FishScreen from './Screens/FishScreen';
 import FullSpeciesProfile from './Components/FullSpeciesProfile';
+import CardItem from './Components/BeachCards/CardItem';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <FishScreen />
           </Route>
           <Route path="/fishprofile/:id" component={FullSpeciesProfile} />
+          <Route path="/spotprofile/:id" component={CardItem} />
         </Switch>
       </main>
     </Router>

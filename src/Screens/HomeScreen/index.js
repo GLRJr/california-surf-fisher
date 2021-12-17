@@ -12,7 +12,9 @@ function HomeScreen() {
       <NavBar />
       <HeroVideo />
       <BeachCards />
+      <h2>Commonly Caught Species</h2>
       <AnimalDescriptionComponent />
+      <button>See Full List</button>
       <MapComponent />
     </main>
   );
