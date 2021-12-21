@@ -23,7 +23,7 @@ function SpeciesCard() {
       >
         {SpeciesData.map((item, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div className={style.main}>
                 <div className={style.upperContainer}>
                   <div className={style.imageContainer}>

@@ -1,42 +1,58 @@
 import React from 'react';
 import styles from './styles.module.css';
 //import {useHistory} from 'react-router-dom';
+import {beachData} from '../../BeachInfo/beachData';
 import CardItem from './CardItem';
-import venicePier from '../../assets/venicefishingpier.jpg';
-import redondoPier from '../../assets/Redondobeachpier.jpg';
-import santaMonicaPier from '../../assets/santaMonicaPier.jpg';
-import manhattanBeachPier from '../../assets/manhattanBeachPier.jpg';
-import willRodgersStateBeach from '../../assets/willRodgersStateBeach.jpg';
 
 function BeachCards() {
+  let homepageCardsBig = [];
+  let homepageCardsSmall = [];
+
+  for (let i in beachData) {
+    if (i < 2) {
+      homepageCardsBig.push(beachData[i]);
+    }
+    console.log(homepageCardsBig.length);
+  }
+
+  for (let i in beachData) {
+    if (i > 2 && i < 6) {
+      homepageCardsSmall.push(beachData[i]);
+    }
+    console.log(homepageCardsSmall.length);
+  }
+
   return (
     <div className={styles.cards}>
       <h1>Popular Spots in the Santa Monica Bay</h1>
       <div className={styles.cardsContainer}>
         <div className={styles.cardsWrapper}>
+          <ul className={styles.cardsItems}></ul>
           <ul className={styles.cardsItems}>
-            <CardItem src={redondoPier} text="Redondo Beach Pier" label="Pier" path="/services" />
-            <CardItem src={venicePier} text="Venice Fishing Pier" label="Pier" path="/" />
+            {homepageCardsBig.map((item, index) => {
+              return (
+                <CardItem
+                  key={index}
+                  src={item.photo}
+                  text={item.id}
+                  label="Pier"
+                  path="/services"
+                />
+              );
+            })}
           </ul>
           <ul className={styles.cardsItems}>
-            <CardItem
-              src={santaMonicaPier}
-              text="Santa Monica Pier"
-              label="Pier"
-              path="/services"
-            />
-            <CardItem
-              src={willRodgersStateBeach}
-              text="Will Rodgers State Beach"
-              label="Surf"
-              path="/products"
-            />
-            <CardItem
-              src={manhattanBeachPier}
-              text="Manhattan Beach Pier"
-              label="Pier"
-              path="/sign-up"
-            />
+            {homepageCardsSmall.map((item, index) => {
+              return (
+                <CardItem
+                  key={index}
+                  src={item.photo}
+                  text={item.id}
+                  label={item.label}
+                  path="/services"
+                />
+              );
+            })}
           </ul>
         </div>
       </div>

@@ -7,10 +7,12 @@ import LocationsScreen from './Screens/LocationsScreen';
 import FishScreen from './Screens/FishScreen';
 import FullSpeciesProfile from './Components/FullSpeciesProfile';
 import CardItem from './Components/BeachCards/CardItem';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <main className={style.app}>
         <Switch>
           <Route exact path="/">
