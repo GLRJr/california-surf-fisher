@@ -36,7 +36,7 @@ function BeachCards() {
                   src={item.photo}
                   text={item.id}
                   label="Pier"
-                  path="/services"
+                  // path="/services"
                 />
               );
             })}
@@ -49,7 +49,7 @@ function BeachCards() {
                   src={item.photo}
                   text={item.id}
                   label={item.label}
-                  path="/services"
+                  // path="/services"
                 />
               );
             })}

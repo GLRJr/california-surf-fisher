@@ -6,8 +6,8 @@ import Rigs from './Screens/RigsScreen';
 import LocationsScreen from './Screens/LocationsScreen';
 import FishScreen from './Screens/FishScreen';
 import FullSpeciesProfile from './Components/FullSpeciesProfile';
-import CardItem from './Components/BeachCards/CardItem';
 import ScrollToTop from './Components/ScrollToTop';
+import FullBeachProfile from './Components/FullBeachProfile';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <FishScreen />
           </Route>
           <Route path="/fishprofile/:id" component={FullSpeciesProfile} />
-          <Route path="/spotprofile/:id" component={CardItem} />
+          <Route path="/spotprofile/:id" component={FullBeachProfile} />
         </Switch>
       </main>
     </Router>
