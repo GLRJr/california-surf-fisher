@@ -1,0 +1,15 @@
+.mainContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainContent h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+}

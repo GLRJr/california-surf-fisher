@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 //import {useHistory} from 'react-router-dom';
-import {beachData} from '../../BeachInfo/beachData';
+import {beachData} from '../../BeachDatabase/beachData';
 import CardItem from './CardItem';
 
 function BeachCards() {
@@ -33,7 +33,7 @@ function BeachCards() {
               return (
                 <CardItem
                   key={index}
-                  src={item.photo}
+                  src={item.profileImage}
                   text={item.id}
                   label="Pier"
                   // path="/services"
@@ -46,7 +46,7 @@ function BeachCards() {
               return (
                 <CardItem
                   key={index}
-                  src={item.photo}
+                  src={item.profileImage}
                   text={item.id}
                   label={item.label}
                   // path="/services"

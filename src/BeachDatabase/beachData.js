@@ -10,7 +10,7 @@ export const beachData = [
   {
     id: 'Malibu',
     label: 'Surf',
-    photo: willRodgersStateBeach,
+    profileImage: willRodgersStateBeach,
     description: '',
     popularBeach: [
       'Zuma',
@@ -53,7 +53,7 @@ export const beachData = [
   {
     id: 'Santa Monica',
     label: 'Surf',
-    photo: santaMonicaPier,
+    profileImage: santaMonicaPier,
     description: '',
     popularBeach: ['Santa Monica State Beach', 'Sorrento Beach'],
     pier: {
@@ -66,7 +66,7 @@ export const beachData = [
   {
     id: 'Venice',
     label: 'Surf',
-    photo: venicePier,
+    profileImage: venicePier,
     description: '',
     popularBeach: [
       'Venice beach',
@@ -85,7 +85,7 @@ export const beachData = [
   {
     id: 'Marina Del Ray',
     label: 'Surf/ Jetty',
-    photo: manhattanBeachPier,
+    profileImage: manhattanBeachPier,
     popularBeach: [''],
     description:
       'Licensed fishing is allowed at the north and south jetties and Venice pier(no License), Marina del Rey Sportfishing operates a bait dock at Fisherman’s Village (13739 Fiji Way), open daily 5 a.m.–6 p.m',
@@ -94,7 +94,7 @@ export const beachData = [
   {
     id: 'Redondo',
     label: 'Surf',
-    photo: redondoPier,
+    profileImage: redondoPier,
     description: '',
     popularBeach: ['Hermosa Pier', 'El Segundo beach', 'Torrance Beach', 'King Harbor'],
     pier: {
@@ -108,14 +108,14 @@ export const beachData = [
   {
     id: 'Huntington Beach Pier',
     label: 'Pier',
-    photo: venicePier,
+    profileImage: venicePier,
     description: '',
     location: 'Main St. and Pacific Coast Highway, Huntington Beach',
   },
   {
     id: 'Catalina Island',
     label: 'Surf',
-    photo: venicePier,
+    profileImage: venicePier,
     description: '',
     popularBeach: [''],
   },
