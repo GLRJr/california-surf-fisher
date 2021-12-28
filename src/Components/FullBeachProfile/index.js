@@ -7,7 +7,7 @@ function FullBeachProfile(props) {
   console.log({props});
   const spot = beachData.find(({id}) => id === props.match.params.id);
   return (
-    <div className={style.mainFullProfile}>
+    <main className={style.mainFullProfile}>
       <NavBar />
       {/* i want to add a swipe photo gallery */}
       <img src={spot.profileImage} alt="profile" />
@@ -21,7 +21,7 @@ function FullBeachProfile(props) {
       <p>{spot.regulation}</p>
       <h4>Sources</h4>
       <p>{spot.source}</p>
-    </div>
+    </main>
   );
 }
 

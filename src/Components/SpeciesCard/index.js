@@ -12,7 +12,7 @@ function SpeciesCard() {
   const history = useHistory();
 
   return (
-    <div className={style.cardContainer}>
+    <main className={style.cardContainer}>
       <Swiper
         spaceBetween={50}
         slidesPerView={3}
@@ -48,7 +48,7 @@ function SpeciesCard() {
           );
         })}
       </Swiper>
-    </div>
+    </main>
   );
 }
 
