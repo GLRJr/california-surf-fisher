@@ -7,7 +7,7 @@ function FullSpeciesProfile(props) {
   console.log({props});
   const animal = SpeciesData.find(({id}) => id === props.match.params.id);
   return (
-    <div className={style.mainFullProfile}>
+    <main className={style.mainFullProfile}>
       <NavBar />
       {/* i want to add a swipe photo gallery */}
       <img src={animal.profileImage} alt="profile" />
@@ -21,7 +21,7 @@ function FullSpeciesProfile(props) {
       <p>{animal.regulation}</p>
       <h4>Sources</h4>
       <p>{animal.source}</p>
-    </div>
+    </main>
   );
 }
 

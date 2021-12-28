@@ -7,18 +7,18 @@ import {useHistory} from 'react-router-dom';
 function FishScreen() {
   const history = useHistory();
   return (
-    <div>
+    <main>
       <NavBar />
       <div className={style.cardContainer}>
         {SpeciesData.map((item, index) => {
           return (
             <div className={style.main}>
-              <div className={style.upperContainer}>
+              <header className={style.upperContainer}>
                 <div className={style.imageContainer}>
                   <img src={item.profileImage} alt="pic of fish" height="100px" width="100px" />
                 </div>
-              </div>
-              <div className={style.lowerContainer}>
+              </header>
+              <section className={style.lowerContainer}>
                 <h3>{item.commonName}</h3>
                 <h4>{item.scienceName}</h4>
                 <p>{item.shortDescription}</p>
@@ -30,12 +30,12 @@ function FishScreen() {
                 >
                   View Full Profile
                 </button>
-              </div>
+              </section>
             </div>
           );
         })}
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -23,7 +23,7 @@ function BeachCards() {
   }
 
   return (
-    <div className={styles.cards}>
+    <main className={styles.cards}>
       <h1>Popular Spots in the Santa Monica Bay</h1>
       <div className={styles.cardsContainer}>
         <div className={styles.cardsWrapper}>
@@ -56,7 +56,7 @@ function BeachCards() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
