@@ -99,7 +99,7 @@ export const beachData = [
     popularBeach: ['Hermosa Pier', 'El Segundo beach', 'Torrance Beach', 'King Harbor'],
     pier: {
       id: 'Redondo Beach Pier',
-      label: 'Surf',
+      label: 'pier',
       photo: '',
       description: '',
       location: '121 W Torrance Blvd 103, Redondo Beach',
