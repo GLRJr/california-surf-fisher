@@ -4,10 +4,10 @@ import NavBar from '../../Components/NavBar';
 
 function LocationsScreen() {
   return (
-    <div>
+    <main>
       <NavBar />
       <BeachCards />
-    </div>
+    </main>
   );
 }
 

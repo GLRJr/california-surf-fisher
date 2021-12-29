@@ -79,17 +79,24 @@ export const beachData = [
       title: 'Venice Beach Fishing Pier',
       description:
         'The Venice Pier Beach is at the long fishing pier jutting out into the Pacific Ocean from the Venice District of Los Angeles',
-      address: 'W Washington Blvd and Ocean Front Walk Los Angeles CA 90291',
+      location: 'W Washington Blvd and Ocean Front Walk Los Angeles CA 90291',
     },
   },
   {
-    id: 'Marina Del Ray',
+    id: 'Marina Del Rey',
     label: 'Surf/ Jetty',
     profileImage: manhattanBeachPier,
     popularBeach: [''],
     description:
-      'Licensed fishing is allowed at the north and south jetties and Venice pier(no License), Marina del Rey Sportfishing operates a bait dock at Fisherman’s Village (13739 Fiji Way), open daily 5 a.m.–6 p.m',
+      'Licensed fishing is allowed at the north and south jetties and Venice pier(no License), Marina del Rey Sportfishing operates a bait dock at Fisherman’s Village, open daily 5 a.m.–6 p.m',
     location: '13739 Fiji Way',
+    pier: {
+      label: 'jetty',
+      title: 'North and South Jetties/ Venice Fishing Pier',
+      description:
+        'Licensed fishing is allowed at the north and south jetties and Venice pier(no License), Marina del Rey Sportfishing operates a bait dock at Fisherman’s Village, open daily 5 a.m.–6 p.m',
+      location: '13739 Fiji Way',
+    },
   },
   {
     id: 'Redondo',
@@ -106,11 +113,18 @@ export const beachData = [
     },
   },
   {
-    id: 'Huntington Beach Pier',
+    id: 'Huntington Beach',
     label: 'Pier',
     profileImage: venicePier,
     description: '',
     location: 'Main St. and Pacific Coast Highway, Huntington Beach',
+    pier: {
+      id: 'Huntington Beach Pier',
+      label: 'Pier',
+      photo: '',
+      description: '',
+      location: 'Main Street & Pacific Coast Highway Huntington Beach, CA, 92648',
+    },
   },
   {
     id: 'Catalina Island',
