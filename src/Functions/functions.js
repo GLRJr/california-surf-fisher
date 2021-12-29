@@ -1,6 +1,6 @@
-// import {beachData} from '../BeachInfo/beachData';
+// import {beachData} from '../BeachDatabase/beachData';
 
-// export function bigHomePageCards() {
+// export function prepareData() {
 //   let homepageCardsBig = [];
 
 //   for (let i in beachData) {
@@ -9,4 +9,5 @@
 //     }
 //     console.log(homepageCardsBig.length);
 //   }
+//   return homepageCardsBig;
 // }
